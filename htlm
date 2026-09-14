@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Solutions | Innovative, Responsive, Reliable</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">XENTRO</span>.PK
+            </a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Connect With Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Referencing Slide 01 Structure) -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">WEB DEVELOPMENT SOLUTIONS</span>
+                <h1>Innovative. Responsive. Reliable.</h1>
+                <p>At our agency, we don't just build websites — we build solutions. Bridge data, design, and conversion-focused code to scale your brand.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">Our Services <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://wa.me/03435095269" class="btn btn-secondary" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-status"><span class="dot"></span> Active Innovation</div>
+                <h3>Conversion Guarantee</h3>
+                <p>Data-driven architecture, custom design, and SEO-optimized clean code built to convert.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Referencing Slide 02 Structure) -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>ABOUT OUR AGENCY</h2>
+                <p>The Bridge Between Data & Design</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-box">
+                    <i class="fas fa-bullseye icon"></i>
+                    <h3>Strategy</h3>
+                    <p>Understanding both the <em>why</em> behind your business and the <em>how</em> behind the code.</p>
+                </div>
+                <div class="about-box">
+                    <i class="fas fa-paint-brush icon"></i>
+                    <h3>Creativity</h3>
+                    <p>Intuitive user interfaces that bridge aesthetics with high-speed performance.</p>
+                </div>
+                <div class="about-box">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Performance</h3>
+                    <p>Clean, mobile-first, responsive web development built to convert visitors into customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section (Referencing Content from Document 1) -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>MEET OUR TEAM</h2>
+                <p>The minds building exceptional web experiences.</p>
+            </div>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-card">
+                    <div class="team-role">Data & Web Architecture</div>
+                    <h3>Malaika Tahir</h3>
+                    <p class="team-title">Economist & Lead Web Developer</p>
+                    <p>Malaika is our bridge between data and design. Experienced as an Analyst & Researcher, she understands both the business goals and conversion strategy required for smart digital decisions.</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-card">
+                    <div class="team-role">Content & Strategy</div>
+                    <h3>Hadia Noor</h3>
+                    <p class="team-title">Content Strategist & Web Developer</p>
+                    <p>Hadia brings together research, content, and visual direction. She listens to clients' vision and turns complex needs into clean, functional, and user-friendly digital tools.</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="team-card">
+                    <div class="team-role">UI/UX & Code</div>
+                    <h3>Anaya Tariq</h3>
+                    <p class="team-title">UI/UX Designer & Web Developer</p>
+                    <p>Anaya bridges aesthetics with performance. She researches user behavior to design intuitive interfaces, bringing them to life with high-speed, fully responsive code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach & Services (Referencing Slide 03 & 07 Structure) -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>CAPABILITIES & APPROACH</h2>
+                <p>Full-stack web solutions tailored to your goals.</p>
+            </div>
+            <div class="services-wrapper">
+                <div class="approach-list">
+                    <h3>Our Core Approach</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Custom website design tailored to your brand</li>
+                        <li><i class="fas fa-check-circle"></i> Responsive and mobile-first development</li>
+                        <li><i class="fas fa-check-circle"></i> Fast loading speed & SEO optimization</li>
+                        <li><i class="fas fa-check-circle"></i> User-friendly CMS integration</li>
+                    </ul>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Website Design & Redesign</h4>
+                        <p>Modern UI/UX tailored visually to your identity for brand authority.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h4>E-commerce Development</h4>
+                        <p>Scalable, conversion-focused online stores designed for high sales.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-headset"></i>
+                        <h4>Website Maintenance & Support</h4>
+                        <p>Reliable technical updates, security monitoring, and continuous optimization.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-search"></i>
+                        <h4>SEO-Friendly Structure</h4>
+                        <p>Architected from the ground up so search engines favor your brand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section (Referencing Slide 09 Structure) -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>OUR PROCESS</h2>
+                <p>From Idea to Execution</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h4>Discover</h4>
+                    <p>Listening to your requirements & audience research.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h4>Strategize</h4>
+                    <p>Defining user journeys & functional roadmap.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h4>Create</h4>
+                    <p>UI/UX design & responsive full-stack coding.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">04</div>
+                    <h4>Launch</h4>
+                    <p>Testing speed, responsiveness, and deployment.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">05</div>
+                    <h4>Optimize</h4>
+                    <p>Continuous support, updates, and maintenance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Referencing Slide 10 Structure) -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>SELECTED WORK</h2>
+                <p>Digital Experiences That Convert</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-img-placeholder"><i class="fas fa-desktop"></i></div>
+                    <h4>Custom E-Commerce Platform</h4>
+                    <span class="tag">UI/UX & Web Dev</span>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img-placeholder"><i class="fas fa-mobile-alt"></i></div>
+                    <h4>Corporate Brand Redesign</h4>
+                    <span class="tag">Responsive Web Design</span>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img-placeholder"><i class="fas fa-rocket"></i></div>
+                    <h4>High-Converting Landing Page</h4>
+                    <span class="tag">Optimization & Maintenance</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Connect Section (Referencing Slide 18 & Doc 1 Connect) -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Ready to build something great together?</h2>
+                <p>Connect with the Xentro.pk team today and scale your online presence.</p>
+                <div class="contact-links">
+                    <a href="https://wa.me/03435095269" target="_blank" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i> 03435095269</a>
+                    <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram: XENTRO.PK</a>
+                    <a href="#" class="social-btn tiktok"><i class="fab fa-tiktok"></i> TikTok: XENTRO.PK</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Xentro.pk - Web Development Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
